@@ -42,31 +42,16 @@
               </nav>
             </div>
           </div>
-
-          <div class="inner cover table-container">
-            <h1 class="cover-heading">Data Tables</h1>
-            <div class="row">
-                <div class="col-sm-6 col-md-6">
-                    <p class="lead">
-                        <a href="first-example.html" class="btn btn-lg btn-danger">Tabela HTML Estática</a>
-                    </p>
-                </div> 
-                <div class="col-sm-6 col-md-6">
-                    <p class="lead">
-                        <a href="tabela-json.php" class="btn btn-lg btn-primary">Tabela JSON</a>
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-md-6">
-                    <p class="lead">
+        
+          <h1 class="cover-heading">Data Tables</h1>
+          <div class="inner cover">
+            
+            <div class="table-container">
+                <div class="main-button">
+                        <a href="tabela-estatica.html" class="btn btn-lg btn-danger">HTML Estática</a>
+                        <a href="tabela-json.php" class="btn btn-lg btn-primary">JSON</a>
                         <a href="tabela-json-ajax.php" class="btn btn-lg btn-warning main-button">JSON + AJAX</a>
-                    </p>
-                </div> 
-                <div class="col-sm-6 col-md-6">
-                    <p class="lead">
-                        <a href="#" class="btn btn-lg btn-success">Processamento Server-Side</a>
-                    </p>
+                        <a href="tabela-server-side.php" class="btn btn-lg btn-success">Server-Side</a>
                 </div>
             </div>
             

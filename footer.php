@@ -12,7 +12,6 @@
                 $('#example').DataTable();
             } );
         </script>
-        
         <script type="text/javascript">
             $(document).ready( function () {
                 $('#tabela-json').DataTable( {
@@ -27,7 +26,6 @@
             } );
         </script>
         <script>
-            
             $(document).ready( function () {
                 var table = $('#tabela-json-ajax').DataTable( {
                     "ajax": "getUsuarioJSON.php",
@@ -43,7 +41,20 @@
                 table.ajax.reload();
             }, 2500 );
           });
-            
+        </script>
+        <script type="text/javascript">
+            $(document).ready( function () {
+                $('#tabela-server-side').DataTable( {
+                    "processing": true,
+                    "serverSide": true,
+                    "ajax": "server-side.php",
+                    "columns": [
+                        { "data": "id" },
+                        { "data": "nome" },
+                        { "data": "email" }
+                    ]
+                });
+            } );
         </script>
     </div>
 </body>
