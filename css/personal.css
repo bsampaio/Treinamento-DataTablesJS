@@ -1,0 +1,15 @@
+#main-container {
+    margin: 30px 15% 30px 15%;   
+}
+
+#header-container {
+    text-align: center;
+}
+
+.table-container {
+    display: table;
+}
+
+.main-button {
+    display: table-cell;
+}
